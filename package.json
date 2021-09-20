@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "echo \"Error:no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ARGunawan/ExpandedThirdPartyAPI.git"
+  }
+}
