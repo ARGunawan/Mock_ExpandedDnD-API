@@ -1,5 +1,5 @@
 {
-  "name":"expanded-dnd-api",
+  "name": "expanded-dnd-api",
   "version": "1.0.0",
   "description": "Expanded Dnd API",
   "main": "index.js",
@@ -10,12 +10,14 @@
   "dependencies": {
     "json-server": "^0.16.3"
   },
-
   "repository": {
     "type": "git",
-    "url": "https://github.com/ARGunawan/ExpandedDnD-API.git"
-  }
-
+    "url": "git+https://github.com/ARGunawan/ExpandedDnD-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARGunawan/ExpandedDnD-API/issues"
+  },
+  "homepage": "https://github.com/ARGunawan/ExpandedDnD-API#readme",
+  "author": "",
+  "license": "ISC"
 }
-
-
