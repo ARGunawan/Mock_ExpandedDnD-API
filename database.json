@@ -26,7 +26,7 @@
         }
       ],
       "alignment": "Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy.",
-      "age": "Age. Grungs mature to adulthood in a single year, but have been known to live up to 50 years.",
+      "age": "Grungs mature to adulthood in a single year, but have been known to live up to 50 years.",
       "size": "Small",
       "size_description": "Grungs stand between 2 1⁄2 and 3 1⁄2 feet tall and average about 30 pounds.",
       "starting_proficiencies": [],
@@ -74,5 +74,76 @@
     "subraces":[],
     "url": ""
    }
+  ],
+  "Locathah_Rising":[
+    {
+      "id": "locathah",
+      "name": "Locathat",
+      "speed": 30,
+      "ability_bonuses":
+      [
+        {
+            "ability_score":
+            {
+              "index": "str",
+              "name": "STR",
+              "url": ""
+            },
+            "bonuses": 2
+        },
+        {
+          "ability_score":
+          {
+            "index": "dex",
+            "name": "Dex",
+            "url": ""
+          },
+          "bonuses": 1
+        }
+      ],
+      "alignment": "Most locathah are true neutral or have some aspect of neutrality in their alignment. They tend toward good, coming from a culture where compassion for the downtrodden is a commonality.",
+      "age": "Age. Grungs mature to adulthood in a single year, but have been known to live up to 50 years.",
+      "size": "Medium",
+      "size_description": "Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium.",
+      "starting_proficiencies": [],
+      "languages":[
+          {
+            "index": "aqun",
+            "name": "Aquan",
+            "url": ""
+          },
+          {
+            "index": "common",
+            "name": "Common",
+            "url": ""
+          }
+      ],
+      "languages_desc": "You can speak, read, and write Aquan and Common.",
+      "traits":[
+        {
+          "index": "natural_armor",
+          "name": "Natural_Armor",
+          "url": ""
+        },
+        {
+          "index": "observant_and_athletic",
+          "name": "observant_and_atheltic",
+          "url": ""
+        },
+        {
+          "index": "leivathan_will",
+          "name": "Leviathan_Will",
+          "url": ""
+        },
+        {
+          "index": "limited_amphibiousness",
+          "name": "Limited_Amphibiousness",
+          "url": ""
+        }
+      ],
+
+    "subraces":[],
+    "url": ""
+    }
   ]
 }
