@@ -2,7 +2,7 @@
   "name": "expanded-dnd-api",
   "version": "1.0.0",
   "description": "Expanded Dnd API",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
     "test": "echo \"Error:no test specified\" && exit 1",
     "start": "node server.js"
