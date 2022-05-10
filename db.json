@@ -227,10 +227,88 @@
 
 
 
+  "The_Tortle_Package": [
+    {
+      "id": "tortle",
+      "name": "Tortle",
+      "speed": 30,
+      "ability_bonuses":
+      [
+        {
+          "ability_score":
+          {
+            "index": "str",
+            "name": "STR",
+            "url": ""
+          },
+          "bonuses": 2
+        },
+        {
+          "ability_score":
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": ""
+          },
+          "bonuses": 1
+        }
+      ],
+      "alignment": "Tortles tend to lead orderly, ritualistic live. They develop customs and routines, becoming more set in their ways as they age. Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos.",
+      "age": "Young tortles tend to crawl for a few weeks after birth before learning to walk on two legs. They reach average adulthood by the age of 15 and live an average of 50 years.",
+      "size": "Medium",
+      "size_description": "Tortle adults stand 5 and 6 feet tall and average 450 pounds. Their shells account for roughly one-third of their weight.",
+      "starting_proficiences": [],
+      "languages":
+      [
+        {
+          "index": "aquan",
+          "name": "Aquan",
+          "url": ""
+        },
+        {
+          "index": "common",
+          "name": "Common",
+          "url": ""
+        }
+      ],
+      "languages_desc": "You speak, read, and write Aquan and Common.",
+      "traits":
+      [
+        {
+          "index": "claws",
+          "name":"Claws",
+          "url":""
+        },
+        {
+          "index": "hold_breath",
+          "name": "Hold_Breath",
+          "url":""
+        },
+        {
+          "index":"natural_armor",
+          "name": "Natural_Armor",
+          "url":""
+        },
+        {
+          "index": "shell_defense",
+          "name": "Shell_Defense",
+          "url": ""
+        },
+        {
+          "index": "survival_instinct",
+          "name": "Survival_Instinct",
+          "url": ""
+        }
+      ],
+      "subraces": [],
+      "url": ""
+    }
+  ],
+
   "Eberron_Rising_From_The_Last_War": [
     {
-      "id": "verdan",
-      "name": "Verdan",
+      "id": "changeling",
+      "name": "Changeling",
       "speed": 30,
       "ability_bonuses":
       [
@@ -246,17 +324,17 @@
         {
           "ability_score":
           {
-            "index": "con",
-            "name": "CON",
+            "index": " ",
+            "name": " ",
             "url": ""
           },
           "bonuses": 1
         }
       ],
-      "alignment": "Verdan are generally good, although their absence of racial identity and shared history can sometimes see individual verdan become untethered from any moral or ethical framework.",
-      "age": "Verdan reach adulthood at around the age of 24, and it is thought that they might live to nearly 200 years old. However, because no verdan has died of old age since the race's initial creation, their upper age limits remain subject to speculation.",
-      "size": "Varies",
-      "size_description": "",
+      "alignment": "Changelings tend toward pragmatic neutrality, and few changelings embrace evil.",
+      "age": "Changelings mature slightly faster than humans but share a similar lifespan-typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.",
+      "size": "Medium",
+      "size_description": "Your size is Medium. To set your height and weight randomly, start with rolling a size modifier: Size modifier = 2d4 Height = 5 feet + l inch + your size modifier in inches Weight in pounds = 115 + (2d4 x your size modifier)",
       "starting_proficiences": [],
       "languages":
       [
@@ -266,43 +344,183 @@
           "url": ""
         },
         {
-          "index": "goblin",
-          "name": "Goblin",
+          "index": " ",
+          "name": " ",
           "url": ""
+        },
+        {
+          "index":" ",
+          "name":" ",
+          "url":""
         }
       ],
-      "languages_desc": "You speak, read, and write Common, Goblin, and one additional language of your choice. This language typically has some connection to one of the areas or cultures that has been part of your life.",
+      "languages_desc": "You can speak, read, and write Common and two other languages of your choice.",
       "traits":
       [
         {
-          "index": "black_blood_healing",
-          "name":"Black_Blood_Healing",
+          "index": "shape_changer",
+          "name":"Shape_Changer",
           "url":""
         },
         {
-          "index": "limited_telepathy",
-          "name": "Limited_Telepathy",
+          "index": "changeling_instincts",
+          "name": "Changeling_Instincts",
           "url":""
-        },
-        {
-          "index":"persuasive",
-          "name": "Persuasive",
-          "url":""
-        },
-        {
-          "index": "telepathic_insight",
-          "name": "Telepathic_Insight",
-          "url": ""
         }
       ],
       "subraces": [],
       "url": ""
+    },
+
+
+
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "speed": 30,
+      "ability_bonuses":
+      [
+        {
+          "ability_score":
+          {
+            "index": "dex",
+            "name": "DEX",
+            "url":""
+          },
+          "bonuses":2
+        },
+        {
+          "ability_score":
+          {
+            "index": "con",
+            "name": "CON",
+            "url":""
+          },
+          "bonuses": 1
+        }
+      ],
+      "alignment": " In Eberron, goblins are usually neutral. They tend to look out for themselves, preferably without drawing unwanted attention from any larger, more powerful people.",
+      "age": "Goblins reach adulthood a t age 8 and live up to 60 years.",
+      "size": "Small",
+      "size_description": "Your size is Small. To set your height and weight randomly, start with rolling a size modifier: Size modifier = 2d4 Height = 3 feet + 5 inches + your size modifier in inches Weight i n pounds = 35 + your size modifier",
+      "starting_proficiences":[],
+      "languages":
+      [
+        {
+          "index":"common",
+          "name": "Common",
+          "url":""
+        },
+        {
+          "index":"goblin",
+          "name":"Goblin",
+          "url":""
+        }
+      ],
+      "languages_desc": "You can speak, read, and write Common and Goblin.",
+      "traits":
+      [
+        {
+          "index": "dark_vision",
+          "name": "Dark_Vision",
+          "url":""
+        },
+        {
+          "index": "fury_of_the_small",
+          "name": "Fury_Of_The_Small",
+          "url":""
+        },
+        {
+          "index":"nimble_escape",
+          "name":"Nimble_Escape",
+          "url":""
+        }
+      ],
+      "subraces":
+      [
+        {
+          "id": "bugbear",
+          "name": "Bugbear",
+          "speed": 30,
+          "ability_bonuses":
+          [
+            {
+              "ability_score":
+              {
+                "index": "str",
+                "name": "STR",
+                "url":""
+              },
+              "bonuses": 2
+            },
+
+            {
+              "ability_score":
+              {
+                "index": "dex",
+                "name": "DEX",
+                "url":""
+              },
+              "bonuses": 1
+            }
+          ],
+          "alignment": "Bugbears live on the fringes of society even in Darguun, where they value self-sufficiency and violence. They are generally chaotic, organizing in loose tribes under charismatic and powerful leaders.",
+          "age": "Bugbears reach adulthood a t age 16 and live up to 80 years.",
+          "size": "Medium",
+          "size_desc": "To set your height and weight randomly, start with rolling a size modifier: Size modifier = 2dl 2 Height = 6 feet + your size modifier in inches Weight in pounds = 200 + (2d6 x your size modifier)",
+          "starting_proficiences": [],
+          "languages":
+          [
+            {
+              "index": "common",
+              "name": "Common",
+              "url":""
+            },
+
+            {
+              "index": "goblin",
+              "name": "Goblin",
+              "url": ""
+            }
+          ],
+          "language_desc": "You can speak, read, and write Common and Goblin.",
+          "traits":
+          [
+            {
+              "index": "dark_vision",
+              "names": "Dark_Vision",
+              "url":""
+            },
+            {
+              "index": "long_limbed",
+              "names": "Long_Limbed",
+              "url":""
+            },
+            {
+              "index": "powerful_build",
+              "names": "Powerful_Build",
+              "url":""
+            },
+            {
+              "index": "sneaky",
+              "names": "Sneaky",
+              "url": ""
+            },
+            {
+              "index": "surprise_attack",
+              "names": "Surprise_Attack",
+              "url": ""
+            }
+          ],
+          "url":""
+        },
+
+        {
+
+        }
+      ],
+      "url": ""
     }
+    
   ]
-
-
-
-
-
-
 }
