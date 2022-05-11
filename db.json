@@ -373,7 +373,6 @@
     },
 
 
-
     {
       "id": "goblin",
       "name": "Goblin",
@@ -584,8 +583,8 @@
     },
 
     {
-    "id": "shifter",
-      "name": "Shifter",
+    "id": "kalashtar",
+      "name": "Kalashtar",
       "speed": 30,
       "ability_bonuses":
       [
@@ -659,7 +658,7 @@
       "url": ""
     },
 
-    {
+  {
       "id": "kalashtar",
         "name": "Kalashtar",
         "speed": 30,
