@@ -516,11 +516,224 @@
         },
 
         {
-
+          "id": "hobgoblin",
+          "name": "Hobgoblin",
+          "speed": 30,
+          "ability_bonuses":
+          [
+            {
+              "ability_score":
+              {
+                "index": "con",
+                "name":"CON",
+                "url":""
+              },
+              "bonuses": 2
+            },
+            {
+              "ability_score":
+              {
+                "index": "int",
+                "name": "INT",
+                "url":""
+              },
+              "bonuses": 1
+            }
+          ],
+          "alignment": "Hobgoblin society in Eberron is shaped by the ideal of a strict code of honor and rigid martial discipline. Most hobgoblins are lawful, tending toward harsh enforcement of their laws.",
+          "age": "Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.",
+          "size": "Medium",
+          "size_desc": "Your size is Medium. To set your height and weight randomly, start with rolling a size modifier: Size modifier = 2dl0 Height = 4 feet + 8 inches + your size modifier in inches Weight in pounds = 1 1 0 + (2d4 x your size modifier).",
+          "starting_proficiences":[],
+          "languages":
+          [
+            {
+              "index": "common",
+              "name": "Common",
+              "url":""
+            },
+            {
+              "index": "goblin",
+              "name": "Goblin",
+              "url":""
+            }
+          ],
+          "language_desc": "You can speak, read, and write Common and Goblin.",
+          "traits":
+          [
+            {
+              "index": "dark_vision",
+              "name": "Dark_Vision",
+              "url":""
+            },
+            {
+              "index": "martial_training",
+              "name": "Martial_Training",
+              "url": ""
+            },
+            {
+              "index": "saving_face",
+              "name": "Saving_Face",
+              "url": ""
+            }
+          ],
+          "url":""
         }
       ],
       "url": ""
-    }
+    },
+
+    {
+    "id": "shifter",
+      "name": "Shifter",
+      "speed": 30,
+      "ability_bonuses":
+      [
+        {
+          "ability_score":
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": ""
+          },
+          "bonuses": 1
+        },
+        {
+          "ability_score":
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": ""
+          },
+          "bonuses": 2
+        }
+      ],
+      "alignment": "The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all beings, but some kalashtar resist the virtuous influence of their spirit.",
+      "age": "Kalashtar mature and age a t the same rate as humans.",
+      "size": "Medium",
+      "size_description": "Your size is Medium. To set your height and weight randomly, start with rolling a size modifier: Size modifier = 2d6 Height = 5 feet + 4 inch + your size modifier in inches Weight in pounds = 110 + (1d6 x your size modifier)",
+      "starting_proficiences": [],
+      "languages":
+      [
+        {
+          "index": "common",
+          "name": "Common",
+          "url": ""
+        },
+        {
+          "index": "quori",
+          "name": "Quori",
+          "url": ""
+        },
+        {
+          "index":" ",
+          "name":" ",
+          "url":""
+        }
+      ],
+      "languages_desc": "You can speak, read, and write Common, Quori,and one other languages of your choice.",
+      "traits":
+      [
+        {
+          "index": "dual_mind",
+          "name":"Dual_Mind",
+          "url":""
+        },
+        {
+          "index": "mental_discipline",
+          "name": "Mental_Discipline",
+          "url":""
+        },
+        {
+          "index": "mind_link",
+          "name": "Mind_Link",
+          "url":""
+        },
+        {
+          "index": "severed_from_dreams",
+          "name": "Severed_from_Dreams",
+          "url": ""
+        }
+      ],
+      "subraces": [],
+      "url": ""
+    },
+
+    {
+      "id": "kalashtar",
+        "name": "Kalashtar",
+        "speed": 30,
+        "ability_bonuses":
+        [
+          {
+            "ability_score":
+            {
+              "index": "cha",
+              "name": "CHA",
+              "url": ""
+            },
+            "bonuses": 1
+          },
+          {
+            "ability_score":
+            {
+              "index": "wis",
+              "name": "WIS",
+              "url": ""
+            },
+            "bonuses": 2
+          }
+        ],
+        "alignment": "The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all beings, but some kalashtar resist the virtuous influence of their spirit.",
+        "age": "Kalashtar mature and age a t the same rate as humans.",
+        "size": "Medium",
+        "size_description": "Your size is Medium. To set your height and weight randomly, start with rolling a size modifier: Size modifier = 2d6 Height = 5 feet + 4 inch + your size modifier in inches Weight in pounds = 110 + (1d6 x your size modifier)",
+        "starting_proficiences": [],
+        "languages":
+        [
+          {
+            "index": "common",
+            "name": "Common",
+            "url": ""
+          },
+          {
+            "index": "quori",
+            "name": "Quori",
+            "url": ""
+          },
+          {
+            "index":" ",
+            "name":" ",
+            "url":""
+          }
+        ],
+        "languages_desc": "You can speak, read, and write Common, Quori,and one other languages of your choice.",
+        "traits":
+        [
+          {
+            "index": "dual_mind",
+            "name":"Dual_Mind",
+            "url":""
+          },
+          {
+            "index": "mental_discipline",
+            "name": "Mental_Discipline",
+            "url":""
+          },
+          {
+            "index": "mind_link",
+            "name": "Mind_Link",
+            "url":""
+          },
+          {
+            "index": "severed_from_dreams",
+            "name": "Severed_from_Dreams",
+            "url": ""
+          }
+        ],
+        "subraces": [],
+        "url": ""
+      }
     
   ]
 }
