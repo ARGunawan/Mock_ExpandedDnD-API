@@ -1,4 +1,4 @@
-# DND: Expanded Character Mock API :
+# DND: Expanded Character Mock API
 
 Created for D&D character creation and references, this mock API will also include expansions of the 5E Core Guide Book. The mock API will include several new classes, items, spells, races, and much more to accomodate for the lack of variety in the core 5E API being used for the DnD Character Creator.
 
